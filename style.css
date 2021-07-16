@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    background-image: url("./fabian-mardi-kVKz9qnJC-k-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: normal;
+}
+.countdown-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+.big-text {
+
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+.countdown-el {
+
+    text-align: center;
+    width: 10%;
+}
+.countdown-el span {
+
+    font-size: 1.5rem;
+}
